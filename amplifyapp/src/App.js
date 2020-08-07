@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Movies from './components/movies';
 import Genres from './components/genres';
+import Phrase from './components/phrase';
 
 class App extends Component {
 
@@ -21,6 +22,8 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h1>Search for movies</h1>
+        <div><Phrase /></div>
         <div><Genres /></div>
         <div><Movies movies={this.state.movies}/></div>
       </div>

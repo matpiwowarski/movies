@@ -5,7 +5,7 @@ import React from 'react'
     const Movies = ({ movies }) => {
       return (
         <div>
-          <center><h1>Movies List</h1></center>
+          <center><h3>Movie List</h3></center>
           {movies.map((movies) => (
             <div class="card">
               <div class="card-body">
