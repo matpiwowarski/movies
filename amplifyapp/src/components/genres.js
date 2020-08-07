@@ -10,6 +10,7 @@ const options = [
 ];
 
 class Genres extends React.Component {
+  
   state = {
     selectedOption: null,
   };

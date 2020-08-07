@@ -7,12 +7,11 @@ class SearchMovies extends Component {
     render() {
         return (
           <div>
-            <div><Phrase /></div>
+            <div><Phrase updatePhrase={this.props.updatePhrase}/></div>
             <div><Genres /></div>
           </div>
         )
       }
-
 }
 
 export default SearchMovies

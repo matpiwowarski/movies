@@ -5,9 +5,12 @@ class Phrase extends React.Component {
       super(props);
       this.state = { phrase: '' };
     }
+    
     myChangeHandler = (event) => {
       this.setState({phrase: event.target.value});
+      this.props.updatePhrase(event.target.value);
     }
+
     render() {
       return (
         <form>
