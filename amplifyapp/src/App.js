@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Movies from './components/movies';
+import Genres from './components/genres';
 
 class App extends Component {
 
@@ -19,7 +20,10 @@ class App extends Component {
 
   render() {
     return (
-      <Movies movies={this.state.movies} />
+      <div>
+        <div><Genres /></div>
+        <div><Movies movies={this.state.movies}/></div>
+      </div>
     )
   }
 }
