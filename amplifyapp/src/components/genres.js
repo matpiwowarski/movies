@@ -8,24 +8,29 @@ const options = [
     { value: 3, label: 'Thriller' },
     { value: 4, label: 'Romance' }
 ];
+/*
+    this.state.selectedOptions.forEach( selectedOptions => 
+      console.log( `Selected: ${selectedOptions.label}` ) 
+    );  
+*/
 
 class Genres extends React.Component {
   
   state = {
-    selectedOption: null,
+    selectedOptions: [],
   };
-  handleChange = selectedOption => {
+  handleChange = selectedOptions => {
     this.setState(
-      { selectedOption },
-      () => console.log(`Option selected:`, this.state.selectedOption)
-    );
+      { selectedOptions },
+    );  
+    this.props.updateGenres(selectedOptions)
   };
   render() {
-    const { selectedOption } = this.state;
+    const { selectedOptions } = this.state;
 
     return (
       <MultiSelect
-        value={selectedOption}
+        value={selectedOptions}
         onChange={this.handleChange}
         options={options}
       />

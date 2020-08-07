@@ -8,7 +8,7 @@ class SearchMovies extends Component {
         return (
           <div>
             <div><Phrase updatePhrase={this.props.updatePhrase}/></div>
-            <div><Genres /></div>
+            <div><Genres updateGenres={this.props.updateGenres}/></div>
           </div>
         )
       }

@@ -8,11 +8,15 @@ class App extends Component {
   state = {
     movies: [],
     phrase: "",
-    genres: [1],
+    genres: [],
   }
 
   updatePhrase = (e) =>{
     this.setState({phrase: e })
+  }
+
+  updateGenres = (e) => {
+    this.setState({genres: e.map((e) => e.value)})
   }
 
   search = () => {
@@ -29,7 +33,7 @@ class App extends Component {
     return (
       <div>
         <h1>Search for movies</h1>
-        <div><SearchMovies updatePhrase={this.updatePhrase}/></div>
+        <div><SearchMovies updatePhrase={this.updatePhrase} updateGenres={this.updateGenres}/></div>
         <button onClick={this.search}>Search</button>
         <div><Movies movies={this.state.movies}/></div>
       </div>
