@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import MultiSelect from "react-multi-select-component";
 
 const options = [
-    { value: 0, label: 'Horror' },
-    { value: 1, label: 'Adventure' },
-    { value: 2, label: 'Sci-fi' },
-    { value: 3, label: 'Thriller' },
-    { value: 4, label: 'Romance' }
+  { value: 0, label: "Horror" },
+  { value: 1, label: "Adventure" },
+  { value: 2, label: "Sci-fi" },
+  { value: 3, label: "Thriller" },
+  { value: 4, label: "Romance" },
 ];
 /*
     this.state.selectedOptions.forEach( selectedOptions => 
@@ -15,15 +15,12 @@ const options = [
 */
 
 class Genres extends React.Component {
-  
   state = {
     selectedOptions: [],
   };
-  handleChange = selectedOptions => {
-    this.setState(
-      { selectedOptions },
-    );  
-    this.props.updateGenres(selectedOptions)
+  handleChange = (selectedOptions) => {
+    this.setState({ selectedOptions });
+    this.props.updateGenres(selectedOptions);
   };
   render() {
     const { selectedOptions } = this.state;
