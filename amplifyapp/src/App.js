@@ -22,7 +22,7 @@ class App extends Component {
 
   search = (event) => {
     fetch(
-      "https://li7tyqc3cj.execute-api.eu-central-1.amazonaws.com/movies/autocomplete?genres=" +
+      "https://cors-anywhere.herokuapp.com/https://li7tyqc3cj.execute-api.eu-central-1.amazonaws.com/movies/autocomplete?genres=" +
         this.state.genres.join() +
         "&phrase=" +
         this.state.phrase
