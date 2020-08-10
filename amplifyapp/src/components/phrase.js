@@ -14,8 +14,12 @@ class Phrase extends React.Component {
   render() {
     return (
       <form>
-        <p>Movie title:</p>
-        <input type="text" onChange={this.myChangeHandler} />
+        <h5 className="login-heading mb-4">Movie title:</h5>
+        <input
+          className="form-control"
+          type="text"
+          onChange={this.myChangeHandler}
+        />
       </form>
     );
   }

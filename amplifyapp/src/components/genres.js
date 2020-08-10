@@ -26,11 +26,14 @@ class Genres extends React.Component {
     const { selectedOptions } = this.state;
 
     return (
-      <MultiSelect
-        value={selectedOptions}
-        onChange={this.handleChange}
-        options={options}
-      />
+      <form>
+        <h5 className="login-heading mb-4">Movie genre:</h5>
+        <MultiSelect
+          value={selectedOptions}
+          onChange={this.handleChange}
+          options={options}
+        />
+      </form>
     );
   }
 }

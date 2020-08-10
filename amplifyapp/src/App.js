@@ -43,26 +43,22 @@ class App extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col-md-9 col-lg-8 mx-auto">
-                    <h3 className="login-heading mb-4">Welcome back!</h3>
+                    <h3 className="login-heading mb-4">
+                      Find your favourite movies!
+                    </h3>
                     <form>
-                      <div className="form-label-group">// input email</div>
+                      <SearchMovies
+                        updatePhrase={this.updatePhrase}
+                        updateGenres={this.updateGenres}
+                      />
 
-                      <div className="form-label-group">// input password</div>
-
-                      <div className="custom-control custom-checkbox mb-3">
-                        // checkbox
-                      </div>
                       <button
                         className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
                         type="submit"
+                        onClick={this.search}
                       >
-                        Sign in
+                        Search
                       </button>
-                      <div className="text-center">
-                        <a className="small" href="#">
-                          Forgot password?
-                        </a>
-                      </div>
                     </form>
                   </div>
                 </div>

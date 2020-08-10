@@ -6,10 +6,10 @@ class SearchMovies extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="form-label-group">
           <Genres updateGenres={this.props.updateGenres} />
         </div>
-        <div>
+        <div className="form-label-group">
           <Phrase updatePhrase={this.props.updatePhrase} />
         </div>
       </div>
