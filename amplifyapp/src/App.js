@@ -9,6 +9,7 @@ class App extends Component {
     movies: [],
     phrase: "",
     genres: [],
+    isFetched: false,
   };
 
   updatePhrase = (e) => {
@@ -19,7 +20,7 @@ class App extends Component {
     this.setState({ genres: e.map((e) => e.value) });
   };
 
-  search = () => {
+  search = (event) => {
     fetch(
       "https://li7tyqc3cj.execute-api.eu-central-1.amazonaws.com/movies/autocomplete?genres=" +
         this.state.genres.join() +
@@ -31,13 +32,26 @@ class App extends Component {
         this.setState({ movies: data });
       })
       .catch(console.log);
+
+    this.setState({ isFetched: true });
+    event.preventDefault();
   };
 
   render() {
+    const isFetched = this.state.isFetched;
+    let moviesPanel;
+    if (isFetched) {
+      moviesPanel = <Movies movies={this.state.movies} />;
+    } else {
+      moviesPanel = null;
+    }
+
     return (
       <div className="container-fluid">
         <div className="row no-gutter">
-          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image">
+            {moviesPanel}
+          </div>
           <div className="col-md-8 col-lg-6">
             <div className="login d-flex align-items-center py-5">
               <div className="container">
@@ -54,7 +68,6 @@ class App extends Component {
 
                       <button
                         className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
-                        type="submit"
                         onClick={this.search}
                       >
                         Search

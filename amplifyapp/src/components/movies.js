@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Genres = ["Horror", "Adventure", "Sci-fi", "Thriller", "Romance"];
 
@@ -6,7 +7,9 @@ const Movies = ({ movies }) => {
   return (
     <div>
       <center>
-        <h3>Movie List</h3>
+        <h3 style={{ color: "white" }} className="login-heading mb-4">
+          Movie list:
+        </h3>
       </center>
       {movies.map((movies) => (
         <div class="card">
