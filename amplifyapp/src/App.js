@@ -47,9 +47,9 @@ class App extends Component {
     }
 
     return (
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ backgroundColor: "#d92027" }}>
         <div className="row no-gutter">
-          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image">
+          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image justify-content-center">
             {moviesPanel}
           </div>
           <div className="col-md-8 col-lg-6">
@@ -57,7 +57,10 @@ class App extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col-md-9 col-lg-8 mx-auto">
-                    <h3 className="login-heading mb-4">
+                    <h3
+                      className="login-heading mb-4"
+                      style={{ color: "#ff9234" }}
+                    >
                       Find your favourite movies!
                     </h3>
                     <form>
@@ -67,6 +70,11 @@ class App extends Component {
                       />
 
                       <button
+                        style={{
+                          color: "#d92027",
+                          backgroundColor: "#ffcd3c",
+                          borderColor: "#ff9234",
+                        }}
                         className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
                         onClick={this.search}
                       >

@@ -26,8 +26,10 @@ class Genres extends React.Component {
     const { selectedOptions } = this.state;
 
     return (
-      <form>
-        <h5 className="login-heading mb-4">Movie genre:</h5>
+      <form style={{ color: "#35d0ba" }}>
+        <h5 className="login-heading mb-4" style={{ color: "#ff9234" }}>
+          Movie genre:
+        </h5>
         <MultiSelect
           value={selectedOptions}
           onChange={this.handleChange}

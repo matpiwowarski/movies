@@ -7,16 +7,33 @@ const Movies = ({ movies }) => {
   return (
     <div>
       <center>
-        <h3 style={{ color: "white" }} className="login-heading mb-4">
+        <h2
+          style={{
+            color: "#ff9234",
+            backgroundColor: "#d92027",
+            margin: 10,
+            borderColor: "#35d0ba",
+          }}
+          className="rounded-pill movie-label login-heading mb-4"
+        >
           Movie list:
-        </h3>
+        </h2>
       </center>
       {movies.map((movies) => (
-        <div class="card">
+        <div
+          class="card-color"
+          style={{
+            margin: 10,
+          }}
+        >
           <div class="card-body">
-            <h5 class="card-title">{movies.Title}</h5>
+            <h5 class="card-title" style={{ color: "#ff9234" }}>
+              {movies.Title}
+            </h5>
             {movies.Genres.map((genres) => (
-              <h6 class="card-subtitle mb-2 text-muted">{Genres[genres]}</h6>
+              <h6 class="card-subtitle mb-2" style={{ color: "#ffcd3c" }}>
+                {Genres[genres]}
+              </h6>
             ))}
           </div>
         </div>

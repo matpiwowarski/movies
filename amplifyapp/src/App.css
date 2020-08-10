@@ -79,6 +79,11 @@
   color: #777;
 }
 
+.card-color {
+  background-color: rgba(217, 32, 39, 0.8);
+  border-color: "#35d0ba";
+}
+
 /* Fallback for Edge
 -------------------------------------------------- */
 
