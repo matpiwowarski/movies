@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div className="container-fluid" style={{ backgroundColor: "#d92027" }}>
         <div className="row no-gutter">
-          <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image justify-content-center">
+          <div className="d-md-flex col-md-4 col-lg-6 bg-image justify-content-center">
             {moviesPanel}
           </div>
           <div className="col-md-8 col-lg-6">
