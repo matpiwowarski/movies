@@ -1,5 +1,5 @@
 # [Movies](https://master.d23jhzcn7gfvfp.amplifyapp.com)
-Web app with movie database.
+Simple web app that displays searched movies from the database.
 
 ## Goal of the project
 Learn React with AWS services.
