@@ -1,7 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Genres = ["Horror", "Adventure", "Sci-fi", "Thriller", "Romance"];
+const Genres = [
+  "Horror",
+  "Adventure",
+  "Sci-fi",
+  "Thriller",
+  "Romance",
+  "Drama",
+];
 
 const Movies = ({ movies }) => {
   return (
@@ -32,7 +39,7 @@ const Movies = ({ movies }) => {
             </h5>
             {movies.Genres.map((genres) => (
               <h6 class="card-subtitle mb-2" style={{ color: "#ffcd3c" }}>
-                {Genres[genres]}
+                {Genres[genres - 1]}
               </h6>
             ))}
           </div>
