@@ -5,5 +5,14 @@ Web app with movie database.
 Learn React with AWS services.
 
 ## Technologies used
-- React
-- AWS Amplify
+- React (frontend)
+- .NET Core (backend)
+- AWS:
+  - AWS Amplify
+  - AWS Lambda
+  - API Gateway
+
+## To do
+- Create & Configure database in Amazon RDS
+- Insert sample data into database
+- Connect database with application
