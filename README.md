@@ -1,5 +1,4 @@
-# Movies
-## [Go to movies website](https://master.d23jhzcn7gfvfp.amplifyapp.com)
+# [Movies](https://master.d23jhzcn7gfvfp.amplifyapp.com)
 Web app with movie database.
 
 ## Goal of the project
