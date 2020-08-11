@@ -1,0 +1,8 @@
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Debug\netcoreapp3.1\MoviesLambda.deps.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Debug\netcoreapp3.1\MoviesLambda.runtimeconfig.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Debug\netcoreapp3.1\MoviesLambda.runtimeconfig.dev.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Debug\netcoreapp3.1\MoviesLambda.dll
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Debug\netcoreapp3.1\MoviesLambda.csprojAssemblyReference.cache
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Debug\netcoreapp3.1\MoviesLambda.AssemblyInfoInputs.cache
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Debug\netcoreapp3.1\MoviesLambda.AssemblyInfo.cs
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Debug\netcoreapp3.1\MoviesLambda.genruntimeconfig.cache

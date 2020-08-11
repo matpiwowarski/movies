@@ -1,0 +1,12 @@
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Release\netcoreapp3.1\linux-x64\MoviesLambda.deps.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Release\netcoreapp3.1\linux-x64\MoviesLambda.runtimeconfig.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Release\netcoreapp3.1\linux-x64\MoviesLambda.runtimeconfig.dev.json
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Release\netcoreapp3.1\linux-x64\MoviesLambda.dll
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\bin\Release\netcoreapp3.1\linux-x64\MoviesLambda.pdb
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.csprojAssemblyReference.cache
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.AssemblyInfoInputs.cache
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.AssemblyInfo.cs
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.csproj.CoreCompileInputs.cache
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.dll
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.pdb
+C:\Users\mpiwowarski\Documents\GitHub\aws-tutorial\MoviesLambda\MoviesLambda\obj\Release\netcoreapp3.1\linux-x64\MoviesLambda.genruntimeconfig.cache

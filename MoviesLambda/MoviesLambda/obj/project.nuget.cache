@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AS4TbVwNAlbnOlkDqSxOtPj0aiF52pltpTmnxSflmOBE3VYazAyKAkawPlGtIQ/dxtQcUMu0QhnbugKkXxMJhQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mpiwowarski\\Documents\\GitHub\\aws-tutorial\\MoviesLambda\\MoviesLambda\\MoviesLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mpiwowarski\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\mpiwowarski\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
